@@ -1,5 +1,5 @@
 # docker-vpnc-client
-IPSec VPN client compatible with Cisco inside docker container
+IPSec VPN client compatible with Cisco i.e. usable with FRITZ!Box, inside docker container
 
 **NOTE:** currently not for production use, since no security considerations are made
 

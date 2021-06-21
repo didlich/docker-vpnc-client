@@ -1,9 +1,8 @@
-FROM alpine:edge
+FROM alpine:3.14
 
-LABEL maintainer="didlich@t-online.de"
+LABEL maintainer="didlich@gmail.com"
 
 RUN apk update && apk add --no-cache \
-  --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing/ \
   openssh \
   vpnc \
   curl
